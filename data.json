@@ -1,0 +1,105 @@
+{
+    "user":[{
+    "id": 1,
+    "name": "sxs",
+    "events":["吃", "喝"]
+},
+{
+    "id": 11,
+    "parentId": 1,
+    "name": "wife1",
+    "events":["吃", "万"]
+},
+{
+    "id": 12,
+    "parentId": 1,
+    "name": "wife2",
+    "events":["吃", "万"]
+}, {
+    "id": 121,
+    "parentId": 12,
+    "name": "child21",
+    "events":["吃", "万"]
+}, {
+    "id": 122,
+    "parentId": 12,
+    "name": "child22",
+    "events":["二", "一"]
+},
+{
+    "id": 13,
+    "parentId": 1,
+    "name": "wife3",
+    "events":["吃", "马"]
+},
+{
+    "id": 111,
+    "parentId": 11,
+    "name": "child1",
+    "events":["吃", "万"]
+},{
+    "id": 112,
+    "parentId": 11,
+    "name": "child2",
+    "events":["吃", "喝", "马", "酒", "人"]
+},{
+    "id": 113,
+    "parentId": 11,
+    "name": "child3",
+    "events":["吃", "二", "人"]
+},{
+    "id": 114,
+    "parentId": 11,
+    "name": "child4",
+    "events":["一", "三", "乐"]
+}],
+"event": [{
+    "id": "吃",
+    "parentId": 1,
+    "name": "吃"
+}, {
+    "id": "喝",
+    "parentId": 1,
+    "name": "喝",
+    "density": 8
+}, {
+    "id": "万",
+    "parentId": 1,
+    "name": "万"
+}, {
+    "id": "乐",
+    "parentId": 1,
+    "name": "乐",
+    "density": 8
+}, {
+    "id": "酒",
+    "parentId": 1,
+    "name": "酒",
+    "density": 10 
+}, {
+    "id": "马",
+    "parentId": 1,
+    "name": "马",
+    "density": 6
+}, {
+    "id": "人",
+    "parentId": 1,
+    "name": "人",
+    "density": 2
+}, {
+    "id": "一",
+    "parentId": 1,
+    "name": "一",
+    "density": 7
+}, {
+    "id": "二",
+    "parentId": 1,
+    "name": "二",
+    "density": 3
+}, {
+    "id": "三",
+    "parentId": 1,
+    "name": "三"
+}
+]
+}
