@@ -7,10 +7,10 @@ var svg = d3.select("#typeChart > #graph").append("svg")
 var immune = svg.append("g").selectAll(".immune"),
     weak = svg.append("g").selectAll(".weak"),
     strong = svg.append("g").selectAll(".strong"),
-    node = svg.append("g").selectAll(".node"),
     eventPanel = svg.append('g').selectAll(".event-link"),
-    personPanel = svg.append("g").selectAll('.person-node'),
-    personLink = svg.append('g').selectAll('person-link');
+    node = svg.append("g").selectAll(".node"),
+    personLink = svg.append('g').selectAll('person-link'),
+    personPanel = svg.append("g").selectAll('.person-node');
 
 function project(x, y) {
   var angle = (x - 90) / 180 * Math.PI, radius = y;
